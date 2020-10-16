@@ -1,0 +1,91 @@
+.b2-blue {
+    border: 2px solid rgb(21, 21, 102) !important;
+    border-radius: 0px !important;
+}
+
+.near-card-left.card {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+    border: 0px;
+    border-radius: 50px 0 0 0;
+    margin: -15px;
+    height: 500px;
+    width: 70%;
+    float: right;
+    box-shadow: 10px -10px 15px grey;
+}
+
+.near-card-right.card {
+    border-radius: 0 0 50px 0;
+    margin: -15px;
+    height: 500px;
+    width: 70%;
+    float: left;
+    box-shadow: 10px -10px 15px grey;
+}
+
+.img-small.card-img {
+    width: 80%;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-align {
+    width: 70%;
+    text-align: left;
+}
+
+@media (max-width: 426.98px ) {
+    .near-card-left.card {
+        display: none;
+    }
+
+    .p-170-150.respons-login {
+        padding: 130px 40px;
+    }
+
+    .near-card-right.card {
+        border-radius: 0px;
+        width: auto;
+        float: none;
+    }
+
+    .link-reg.blue-text {
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 768.98px) {
+    .p-170-150.respons-login {
+        padding: 130px 0px;
+    }
+
+    .near-card-right.card {
+        width: 100%
+    }
+
+    .near-card-left.card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024.98px) {
+    .p-170-150.respons-login {
+        padding: 170px 0px;
+    }
+
+    .near-card-right.card {
+        width: 100%
+    }
+
+    .near-card-left.card {
+        width: 100%;
+    }
+}

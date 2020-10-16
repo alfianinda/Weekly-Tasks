@@ -1,0 +1,73 @@
+.near-card-left-register.card {
+    border: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50px 0 0 0;
+    margin: -15px;
+    height: 500px;
+    width: 70%;
+    float: right;
+    box-shadow: 10px -10px 15px grey;
+}
+
+.near-card-right-register.card {
+    border: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 50px 0;
+    margin: -15px;
+    height: 500px;
+    width: 70%;
+    float: left;
+    box-shadow: 10px -10px 15px grey;
+}
+
+.link-reg, .link-reg:hover {
+    color: white;
+}
+
+@media (max-width: 426.98px ) {
+    .p-170-150.respons-register {
+        padding: 100px 0px;
+    }
+
+    .near-card-left-register.card {
+        margin: 0px;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .near-card-right-register.card {
+        margin: 0px;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 768.98px) {
+    .p-170-150.respons-register {
+        padding: 140px 0px;
+    }
+
+    .near-card-left-register.card {
+        width: 100%;
+    }
+
+    .near-card-right-register.card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024.98px) {
+    .p-170-150.respons-register {
+        padding: 150px 40px;
+    }
+
+    .near-card-left-register.card {
+        width: 100%;
+    }
+
+    .near-card-right-register.card {
+        width: 100%;
+    }
+}

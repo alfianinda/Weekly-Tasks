@@ -1,0 +1,146 @@
+// @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
+body {
+    background-color: rgb(221, 219, 219) !important;
+    // font-family: 'Permanent Marker', cursive !important;
+    font-family: 'Baloo 2', cursive !important;
+
+}
+
+.blue-text {
+    color: rgb(21, 21, 102);
+}
+
+.warning-text {
+    color: rgb(146, 67, 91) !important;
+}
+
+.white-text {
+    color: white !important;
+}
+
+.blue-text {
+    color: rgb(21, 21, 102) !important;
+}
+
+.blue-bg {
+    background-color: rgb(21, 21, 102) !important;
+}
+
+.white-bg {
+    background-color: white !important;
+}
+
+.p-170-150 {
+    padding: 170px 150px;
+}
+
+.p-100-150 {
+    padding: 100px 150px;
+}
+
+.p-0-100 {
+    padding: 0px 100px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.p-25 {
+    padding: 25px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.we-800 {
+    font-weight: 800 !important;
+}
+
+.we-500 {
+    font-weight: 500;
+}
+
+.wi-100 {
+    width: 100%;
+}
+
+.wi-80 {
+    width: 80% !important;
+}
+
+.wi-60 {
+    width: 60% !important;
+}
+
+.wi-30 {
+    width: 30% !important;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.relative {
+    position: relative;
+}
+
+.round-10 {
+    border-radius: 10%;
+}
+
+.pointer {cursor: pointer;}
+
+.grad-color {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+}
+
+.grad-warning-color {
+    background-color: rgb(204, 110, 138);
+    background-image: linear-gradient(to top right, rgb(204, 110, 138), rgb(156, 227, 245));
+}
+
+
+.trp-color {
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+.border-head {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 20px 0px;
+}
+
+.border-body {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    align-items: center
+}
+
+.body-bg-profile {
+    background: url(./../images/bg1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+.body-bg-modal {
+background: url(./../images/bg1.jpg) no-repeat;
+background-size: cover;
+}
+
+.br-btn {
+    border-radius: 0.25rem;
+}

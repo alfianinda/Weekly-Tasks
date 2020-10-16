@@ -1,0 +1,119 @@
+.body-bg-profile-pro {
+  background: url(./../images/bg1.jpg) repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.box-all{
+  min-width: 1200px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.box-all-img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: top;
+}
+.box-all h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box-all h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box-all p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box-all li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box-all li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box-all li a:hover{
+  color: #b9b9b9;
+}
+
+@media (max-width: 426.98px ) {
+  .p-170-150.respons-all {
+    padding: 150px;
+  }
+
+  .body-bg-profile-pro {
+    background: url(./../images/bg1.jpg) repeat;
+    background-size: contain;
+    height: 1000vh;
+    width: 300% !important;
+  }
+
+  .box-all {
+    min-width: 998px;
+  }
+
+  .border-head.row, .border-body.row {
+    flex-wrap: nowrap;
+  }
+
+  .respons-all.btn {
+    padding: .375rem .55rem
+  }
+}
+
+@media (min-width: 427px) and (max-width: 768.98px) {
+  .body-bg-profile-pro {
+    background: url(./../images/bg1.jpg) repeat;
+    background-size: contain;
+    height: 1000vh;
+    width: 300% !important;
+  }
+  .box-all {
+    min-width: 998px;
+  }
+
+  .border-head.row, .border-body.row {
+    flex-wrap: nowrap;
+  }
+
+  .respons-all.btn {
+    padding: .375rem .55rem
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024.98px) {
+  .body-bg-profile-pro {
+    background: url(./../images/bg1.jpg) repeat;
+    background-size: contain;
+    height: 1000vh;
+    width: 300% !important;
+  }
+
+  .box-all {
+    min-width: 998px;
+  }
+
+  .border-head.row, .border-body.row {
+    flex-wrap: nowrap;
+  }
+
+  .respons-all.btn {
+    padding: .375rem .55rem
+  }
+}
+

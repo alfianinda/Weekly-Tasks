@@ -1,0 +1,330 @@
+.card-left.card {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+    margin: -15px;
+    width: 100%;
+    float: right;
+    box-shadow: 10px -10px 15px grey;
+    border-radius: 0px;
+    border: none;
+    min-height: 525px;
+}
+
+.card-right.card {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top left, rgb(21, 21, 102), rgb(156, 227, 245));
+    margin: -15px;
+    width: 100%;
+    float: left;
+    box-shadow: 10px -10px 15px grey;
+    border-radius: 0px;
+    border: none;
+    min-height: 525px;
+}
+
+.justify-flex-start.card-body {
+    justify-content: flex-start;
+}
+
+.simple-search.form-control, .simple-search.form-control:focus {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin: 30px 0;
+}
+
+input.simple-search::placeholder {
+    color: white;
+}
+
+.simple-form-list.form-control, .simple-form-list.form-control:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(21, 21, 102);
+    border-radius: 0px;
+    color: rgb(21, 21, 102);
+    margin: 30px 0;
+}
+
+input.simple-form-list::placeholder, #inputIdList::placeholder {
+    color: rgb(21, 21, 102);
+}
+
+.grid-task {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 30% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-task:hover {
+    background-color: white;
+    background-image: linear-gradient(to top right, white, white);
+    color: rgb(21, 21, 102)
+}
+
+.laptop-bg-list {
+    left: 250px;
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    opacity: 30%;
+    border-radius: 50%;
+}
+
+.tooltip-inner {
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive !important;
+}
+
+.modal-content {
+    margin-top: 150px;
+}
+
+.manage.modal-body, .detail.modal-body {
+    padding: 3rem !important;
+    background-image: url("../images/bg1.jpg");
+    // background-repeat: repeat;
+    background-size: 100%;
+}
+
+.modal-backdrop.show {
+    opacity: 0.7 !important;
+}
+
+.display-detail.modal-dialog {
+    max-width: 1300px;
+}
+
+.display-detail .modal-content {
+    margin-top: auto !important;
+}
+
+.card-detail {
+    width: 100%;
+    box-shadow: 10px -10px 15px grey;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.btn-detail-modal {
+    width: 35%;
+    margin: 5px;
+}
+
+.del-button {
+    width: 190px;
+}
+
+.info-onyx.card-body {
+    align-items: normal;
+}
+
+.modal-header {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+}
+
+.modal-content {
+    box-shadow: 10px -10px 15px grey;
+}
+
+.page-grid {
+    background-color: rgb(21, 21, 102);
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
+    margin: 0.5px;
+}
+
+.page-parent {
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+
+.page-parent-current {
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+}
+
+.page-grid.number {
+    padding: 0px 16px
+}
+
+.page-grid:hover {
+    background-color: white;
+    background-image: linear-gradient(to top right, white, white);
+    color: rgb(21, 21, 102)
+}
+
+@media (max-width: 426.98px ) {
+    .p-170-150 {
+        padding: 100px 0px;
+    }
+
+    .card-left.card {
+        margin: 0px;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .card-right.card {
+        margin: 0px;
+        width: 100%;
+        float: none;
+        margin-top: 50px;
+    }
+
+    .respons-list {
+        left: 0px !important;
+        top: 130px;
+        text-align: justify;
+        padding: 0px 80px;
+        background-color: transparent;
+        background-image: linear-gradient(to bottom right, transparent, transparent);
+    }
+
+    .laptop-bg-list {
+        left: 27px;
+        width: 380px;
+        top: 40px;
+    }
+
+    .p-50.card-body {
+        padding: 45px 30px;
+    }
+
+    .info-onyx.respons-list-3 {
+        padding: 0px;
+    }
+
+    .respons-list-2 {
+        font-size: 2rem;
+    }
+
+    .page-parent {
+        bottom: 25px;
+        right: 45px;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 768.98px) {
+    .card-left.card {
+        width: 100%;
+        min-height: 560px;
+    }
+
+    .card-right.card {
+        width: 100%;
+        min-height: 560px;
+    }
+    .respons-list {
+        left: 0px !important;
+        top: 130px;
+        text-align:left;
+        padding: 0px 60px;
+        background-color: transparent;
+        background-image: linear-gradient(to bottom right, transparent, transparent);
+    }
+
+    .laptop-bg-list {
+        left: 27px;
+        width: 380px;
+        top: 40px;
+    }
+
+    .info-onyx.respons-list-3 {
+        padding: 0px;
+    }
+
+    .respons-list-2 {
+        font-size: 2rem;
+    }
+
+    .page-parent {
+        bottom: 30px;
+        right: 25px;
+    }
+
+    .p-50.card-body {
+        padding: 45px 30px;
+    }
+
+    .p-170-150 {
+        padding: 135px 0px;
+    }
+
+    .card-left.p-50 {
+        padding: 50px 25px
+    }
+
+    .round-10.info-onyx {
+        border-radius: 0px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024.98px) {
+    .card-left.card {
+        width: 100%;
+        min-height: 560px;
+    }
+
+    .card-right.card {
+        width: 100%;
+        min-height: 560px;
+    }
+    .respons-list {
+        left: 0px !important;
+        top: 130px;
+        text-align:left;
+        padding: 0px 60px;
+        background-color: transparent;
+        background-image: linear-gradient(to bottom right, transparent, transparent);
+    }
+
+    .laptop-bg-list {
+        left: 27px;
+        width: 380px;
+        top: 40px;
+    }
+
+    .info-onyx.respons-list-3 {
+        padding: 0px;
+    }
+
+    .respons-list-2 {
+        font-size: 2rem;
+    }
+
+    .page-parent {
+        bottom: 30px;
+        right: 25px;
+    }
+
+    .p-50.card-body {
+        padding: 45px 30px;
+    }
+
+    .p-170-150 {
+        padding: 135px 0px;
+    }
+
+    .card-left.p-50 {
+        padding: 50px 25px
+    }
+}

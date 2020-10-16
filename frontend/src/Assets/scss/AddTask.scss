@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+.card-full.card {
+    background-color: rgb(21, 21, 102);
+    box-shadow: 10px -10px 15px grey;
+    background-image: linear-gradient(to top right, rgb(21, 21, 102), rgb(156, 227, 245));
+    border: none;
+}
+
+.rlc-calendar {
+    width: 60%;
+    margin: 50px 0;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: 'Permanent Marker', cursive !important;
+}
+
+.simple-form.form-control, .simple-form.form-control:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    color: white;
+    margin: 30px 0;
+}
+
+input.simple-form::placeholder, #inputID::placeholder {
+    color: white;
+}
+
+.rlc-day-out-of-month {
+    color: rgb(21, 21, 102);
+}
+
+.rlc-date-time-selects, .rlc-days-label {
+    display: none;
+}
+
+.rlc-day-today {
+    color: #fff;
+    background-color: rgb(192, 125, 125);
+    border-radius: 50%;
+}
+
+.p-50.card-body {
+    padding: 50px;
+}
+
+.lamp-bg {
+    top: 250px;
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    opacity: 10%;
+    border-radius: 50%;
+    left: -75px;
+}
+
+.laptop-bg {
+    top: 20px;
+    right: 40px;
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    opacity: 40%;
+    border-radius: 50%
+}
